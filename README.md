@@ -320,10 +320,26 @@ Model-agnostic by design: uses structural safeguards (file reads, command verifi
 
 ---
 
+## Author
+
+**Mert Ali Dalkır** — AI-first builder, co-founder of [NexVar](https://nexvar.io).
+
+I build tools that make AI-powered development faster, more reliable, and more structured. MertGSD is born from real production experience — every agent and workflow exists because I needed it while building real projects.
+
+[![X](https://img.shields.io/badge/@mertdlkr-000?style=flat&logo=x&logoColor=white)](https://x.com/mertdlkr)
+[![LinkedIn](https://img.shields.io/badge/mertdlkr-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mertdlkr/)
+[![GitHub](https://img.shields.io/badge/mertdlkr-181717?style=flat&logo=github&logoColor=white)](https://github.com/mertdlkr)
+[![Medium](https://img.shields.io/badge/@mertdlkr-000?style=flat&logo=medium&logoColor=white)](https://medium.com/@mertdlkr)
+[![Telegram](https://img.shields.io/badge/@mertdlkr-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mertdlkr)
+[![Instagram](https://img.shields.io/badge/@mertdlkr-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/mertdlkr)
+[![Kaggle](https://img.shields.io/badge/mertdlkr-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/mertdlkr)
+
+---
+
 ## License
 
 MIT
 
 ---
 
-Built by [Mert Ali Dalkır](https://mertdlkr.com) — AI-first builder.
+If MertGSD saves you time, give it a star and share it. PRs welcome.
