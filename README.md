@@ -5,7 +5,7 @@
 MertGSD is a multi-agent system that turns AI coding assistants into complete project management engines. 18 specialized agents + 18 workflows that handle everything from initial research to production deployment.
 
 
-> *"I built this because every AI coding tool is great at writing code but terrible at managing projects. MertGSD bridges that gap."* — Mert Ali Dalkır
+> *"I built this because every AI coding tool is great at writing code but terrible at managing projects. MertGSD bridges that gap."* — [Mert Ali Dalkır](https://mertdlkr.com)
 
 ---
 
@@ -323,10 +323,10 @@ your-project/
 
 This system was built while shipping real production projects:
 
-- **NexVar.io** — AI-first software studio site (Next.js 16, i18n, AI chatbot, newsletter, blog CMS)
+- **[NexVar.io](https://nexvar.io)** — AI-first software studio site (Next.js 16, i18n, AI chatbot, newsletter, blog CMS)
 - **Vault** — Personal finance tracker (Supabase, multi-currency, AI assistant, real-time rates)
 
-Every agent and workflow exists because it was needed during real development.
+Every agent and workflow exists because it was needed during real development. Read more at [mertdlkr.com](https://mertdlkr.com).
 
 ---
 
@@ -365,10 +365,11 @@ PRs welcome. If you add a new agent or workflow, follow the existing format in `
 
 ## Author
 
-**Mert Ali Dalkır** — AI-first builder, co-founder of [NexVar](https://nexvar.io).
+**[Mert Ali Dalkır](https://mertdlkr.com)** — AI-first builder, co-founder of [NexVar](https://nexvar.io).
 
 I build tools and systems that make AI-powered development faster, more reliable, and more structured. MertGSD is the execution framework behind everything I ship.
 
+[![Website](https://img.shields.io/badge/mertdlkr.com-000?style=flat&logo=safari&logoColor=white)](https://mertdlkr.com)
 [![X](https://img.shields.io/badge/@mertdlkr-000?style=flat&logo=x&logoColor=white)](https://x.com/mertdlkr)
 [![LinkedIn](https://img.shields.io/badge/mertdlkr-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mertdlkr/)
 [![GitHub](https://img.shields.io/badge/mertdlkr-181717?style=flat&logo=github&logoColor=white)](https://github.com/mertdlkr)
@@ -386,6 +387,8 @@ MIT
 ---
 
 **If MertGSD saves you time, give it a star.** It helps others find it.
+
+Built with conviction at [mertdlkr.com](https://mertdlkr.com).
 
 <!--
 Keywords for discoverability:
