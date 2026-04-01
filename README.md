@@ -69,25 +69,35 @@ Copy-Item -Recurse MertGSD/.agent your-project/.agent
 
 ### Start building
 
-```bash
-# Open your AI coding tool
 
-# Initialize project (planning only — no code execution)
+**Step 1 — Plan your project:**
+```
 /mertgsd-new-project
+```
+It will ask you questions about what you want to build, research the domain, and create a structured project plan. No code is written at this stage.
 
-# Full autonomous mode (prompt to production)
+**Step 2 — Build it autonomously:**
+```
+/mertgsd-super
+```
+After planning, run this to execute the entire project autonomously — plan, build, test, audit, and deploy. Walk away and get notified when it's done.
+
+**Or skip planning and go full autonomous with a prompt:**
+```
 /mertgsd-super "Build a SaaS dashboard with auth, billing, and analytics"
-
-# Phase-by-phase autonomous mode
-/mertgsd-autopilot 1
 ```
 
-Other tools (Copilot, Codex, Cursor, etc.) — just tell them to read `.agent/workflows/mertgsd-new-project.md` and follow the workflow.
+**See all 39 commands:**
+```
+/mertgsd-help
+```
+
+> **Works with any AI coding tool.** For non-slash-command tools, just tell them: "Read `.agent/workflows/mertgsd-new-project.md` and follow the workflow."
 
 ### CLI Commands
 
 ```bash
-mertgsd install [path]      # Install .agent/ to a project
+mertgsd install [path]   # Install MertGSD to a project
 mertgsd update [path]    # Update to latest version
 mertgsd info             # Show agent/workflow counts
 mertgsd --version        # Show version
