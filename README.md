@@ -25,30 +25,73 @@ MertGSD is a multi-agent system that turns AI coding assistants into complete pr
 
 ## Quick Start
 
-### Install
+### 1. Clone MertGSD
 
 ```bash
 git clone https://github.com/mertdlkr/MertGSD.git
 ```
 
-### Add to your project
+### 2. Install to your project
+
+Pick your OS:
+
+<details>
+<summary><b>macOS / Linux</b></summary>
 
 ```bash
-./MertGSD/mertgsd-install.sh /path/to/your-project
+bash MertGSD/mertgsd-install.sh /path/to/your-project
 ```
 
-This copies `.agent/` (18 agents + 39 workflows) into your project directory.
+Or if you're already inside your project:
 
-### Start building
+```bash
+bash /path/to/MertGSD/mertgsd-install.sh .
+```
+
+</details>
+
+<details>
+<summary><b>Windows (PowerShell)</b></summary>
+
+```powershell
+# Option 1: Use Git Bash (recommended)
+bash MertGSD/mertgsd-install.sh C:/Users/you/your-project
+
+# Option 2: Manual copy
+Copy-Item -Recurse MertGSD/.agent your-project/.agent
+```
+
+> **Note:** The install script is a bash script. On Windows, use Git Bash, WSL, or manually copy the `.agent/` folder into your project root.
+
+</details>
+
+<details>
+<summary><b>WSL (Windows Subsystem for Linux)</b></summary>
+
+```bash
+# Works exactly like Linux
+bash MertGSD/mertgsd-install.sh /path/to/your-project
+```
+
+</details>
+
+That's it — this copies `.agent/` (18 agents + 39 workflows) into your project. No dependencies, no npm, no config files needed.
+
+### 3. Start building
+
+Open your AI coding tool and run:
 
 ```bash
 /mertgsd-new-project
+
+# Full autonomous mode (prompt to production)
+/mertgsd-super "Build a SaaS dashboard with auth, billing, and analytics"
+
+# Phase-by-phase autonomous mode
+/mertgsd-autopilot 1
 ```
 
-**Full autonomous mode:**
-```
-/mertgsd-super "Build a SaaS dashboard with auth, billing, and real-time analytics"
-```
+Other tools (Copilot, Codex, Cursor, etc.) — just tell them to read `.agent/workflows/mertgsd-new-project.md` and follow the workflow.
 
 ---
 
