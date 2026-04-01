@@ -5,7 +5,7 @@
 MertGSD is a multi-agent system that turns AI coding assistants into complete project management engines. 18 specialized agents + 18 workflows that handle everything from initial research to production deployment.
 
 
-> *"I built this because every AI coding tool is great at writing code but terrible at managing projects. MertGSD bridges that gap."* — [Mert Ali Dalkır](https://mertdlkr.com)
+> *"I built this because every AI coding tool is great at writing code but terrible at managing projects. MertGSD bridges that gap."* — <a href="https://mertdlkr.com" target="_blank" rel="noreferrer">Mert Ali Dalkır</a>
 
 ---
 
@@ -276,7 +276,7 @@ You'll get notified on your phone when:
 - Audit finds critical issues
 - Errors block execution
 
-Uses [ntfy.sh](https://ntfy.sh) — free, open-source, no account needed.
+Uses <a href="https://ntfy.sh" target="_blank" rel="noreferrer">ntfy.sh</a> — free, open-source, no account needed.
 
 ---
 
@@ -323,10 +323,10 @@ your-project/
 
 This system was built while shipping real production projects:
 
-- **[NexVar.io](https://nexvar.io)** — AI-first software studio site (Next.js 16, i18n, AI chatbot, newsletter, blog CMS)
+- **<a href="https://nexvar.io" target="_blank" rel="noreferrer">NexVar.io</a>** — AI-first software studio site (Next.js 16, i18n, AI chatbot, newsletter, blog CMS)
 - **Vault** — Personal finance tracker (Supabase, multi-currency, AI assistant, real-time rates)
 
-Every agent and workflow exists because it was needed during real development. Read more at [mertdlkr.com](https://mertdlkr.com).
+Every agent and workflow exists because it was needed during real development. Read more at <a href="https://mertdlkr.com" target="_blank" rel="noreferrer">mertdlkr.com</a>.
 
 ---
 
@@ -337,7 +337,7 @@ Every agent and workflow exists because it was needed during real development. R
 
 **Optional:**
 - Node.js 18+ (for web projects)
-- [ntfy](https://ntfy.sh) app (push notifications)
+- <a href="https://ntfy.sh" target="_blank" rel="noreferrer">ntfy</a> app (push notifications)
 - Supabase / Prisma (database features)
 - Cloudflare / Vercel / Netlify (deployment)
 
@@ -365,18 +365,18 @@ PRs welcome. If you add a new agent or workflow, follow the existing format in `
 
 ## Author
 
-**[Mert Ali Dalkır](https://mertdlkr.com)** — AI-first builder, co-founder of [NexVar](https://nexvar.io).
+**<a href="https://mertdlkr.com" target="_blank" rel="noreferrer">Mert Ali Dalkır</a>** — AI-first builder, co-founder of <a href="https://nexvar.io" target="_blank" rel="noreferrer">NexVar</a>.
 
 I build tools and systems that make AI-powered development faster, more reliable, and more structured. MertGSD is the execution framework behind everything I ship.
 
-[![Website](https://img.shields.io/badge/mertdlkr.com-000?style=flat&logo=safari&logoColor=white)](https://mertdlkr.com)
-[![X](https://img.shields.io/badge/@mertdlkr-000?style=flat&logo=x&logoColor=white)](https://x.com/mertdlkr)
-[![LinkedIn](https://img.shields.io/badge/mertdlkr-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mertdlkr/)
-[![GitHub](https://img.shields.io/badge/mertdlkr-181717?style=flat&logo=github&logoColor=white)](https://github.com/mertdlkr)
-[![Medium](https://img.shields.io/badge/@mertdlkr-000?style=flat&logo=medium&logoColor=white)](https://medium.com/@mertdlkr)
-[![Telegram](https://img.shields.io/badge/@mertdlkr-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mertdlkr)
-[![Instagram](https://img.shields.io/badge/@mertdlkr-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/mertdlkr)
-[![Kaggle](https://img.shields.io/badge/mertdlkr-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/mertdlkr)
+<a href="https://mertdlkr.com" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/mertdlkr.com-000?style=flat&amp;logo=safari&amp;logoColor=white" alt="Website"></a>
+<a href="https://x.com/mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/@mertdlkr-000?style=flat&amp;logo=x&amp;logoColor=white" alt="X"></a>
+<a href="https://www.linkedin.com/in/mertdlkr/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/mertdlkr-0A66C2?style=flat&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/mertdlkr-181717?style=flat&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+<a href="https://medium.com/@mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/@mertdlkr-000?style=flat&amp;logo=medium&amp;logoColor=white" alt="Medium"></a>
+<a href="https://t.me/mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/@mertdlkr-26A5E4?style=flat&amp;logo=telegram&amp;logoColor=white" alt="Telegram"></a>
+<a href="https://instagram.com/mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/@mertdlkr-E4405F?style=flat&amp;logo=instagram&amp;logoColor=white" alt="Instagram"></a>
+<a href="https://kaggle.com/mertdlkr" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/mertdlkr-20BEFF?style=flat&amp;logo=kaggle&amp;logoColor=white" alt="Kaggle"></a>
 
 ---
 
@@ -388,7 +388,7 @@ MIT
 
 **If MertGSD saves you time, give it a star.** It helps others find it.
 
-Built with conviction at [mertdlkr.com](https://mertdlkr.com).
+Built with conviction at <a href="https://mertdlkr.com" target="_blank" rel="noreferrer">mertdlkr.com</a>.
 
 <!--
 Keywords for discoverability:
