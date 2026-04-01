@@ -25,63 +25,54 @@ MertGSD is a multi-agent system that turns AI coding assistants into complete pr
 
 ## Quick Start
 
-### 1. Clone MertGSD
+### Option A: npm (recommended)
+
+```bash
+npm i -g mertgsd
+cd your-project
+mertgsd init
+```
+
+That's it. Works on **macOS, Linux, and Windows**.
+
+To update later:
+
+```bash
+npm update -g mertgsd
+mertgsd update
+```
+
+### Option B: Git clone (manual)
+
+<details>
+<summary>Click to expand</summary>
 
 ```bash
 git clone https://github.com/mertdlkr/MertGSD.git
 ```
 
-### 2. Install to your project
-
-Pick your OS:
-
-<details>
-<summary><b>macOS / Linux</b></summary>
-
+**macOS / Linux / WSL:**
 ```bash
 bash MertGSD/mertgsd-install.sh /path/to/your-project
 ```
 
-Or if you're already inside your project:
-
-```bash
-bash /path/to/MertGSD/mertgsd-install.sh .
-```
-
-</details>
-
-<details>
-<summary><b>Windows (PowerShell)</b></summary>
-
+**Windows (PowerShell):**
 ```powershell
-# Option 1: Use Git Bash (recommended)
+# Use Git Bash
 bash MertGSD/mertgsd-install.sh C:/Users/you/your-project
 
-# Option 2: Manual copy
+# Or manual copy
 Copy-Item -Recurse MertGSD/.agent your-project/.agent
 ```
 
-> **Note:** The install script is a bash script. On Windows, use Git Bash, WSL, or manually copy the `.agent/` folder into your project root.
-
 </details>
 
-<details>
-<summary><b>WSL (Windows Subsystem for Linux)</b></summary>
+### Start building
 
 ```bash
-# Works exactly like Linux
-bash MertGSD/mertgsd-install.sh /path/to/your-project
-```
+# Open your AI coding tool
 
-</details>
-
-That's it — this copies `.agent/` (18 agents + 39 workflows) into your project. No dependencies, no npm, no config files needed.
-
-### 3. Start building
-
-Open your AI coding tool and run:
-
-```bash
+# Initialize project (planning only — no code execution)
 /mertgsd-new-project
 
 # Full autonomous mode (prompt to production)
@@ -92,6 +83,16 @@ Open your AI coding tool and run:
 ```
 
 Other tools (Copilot, Codex, Cursor, etc.) — just tell them to read `.agent/workflows/mertgsd-new-project.md` and follow the workflow.
+
+### CLI Commands
+
+```bash
+mertgsd init [path]      # Install .agent/ to a project
+mertgsd update [path]    # Update to latest version
+mertgsd info             # Show agent/workflow counts
+mertgsd --version        # Show version
+mertgsd --help           # Show help
+```
 
 ---
 

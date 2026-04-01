@@ -1,0 +1,38 @@
+{
+  "name": "mertgsd",
+  "version": "1.0.0",
+  "description": "AI agent framework for structured project execution. 18 agents + 39 workflows. Plan, build, audit, deploy — fully autonomous or human-in-the-loop.",
+  "bin": {
+    "mertgsd": "./bin/mertgsd.js"
+  },
+  "files": [
+    "bin/",
+    ".agent/",
+    "mertgsd-install.sh",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "copilot",
+    "codex",
+    "project-management",
+    "autonomous-coding",
+    "multi-agent",
+    "anti-hallucination",
+    "mertgsd"
+  ],
+  "author": "Mert Ali Dalkır <mertadalkir@gmail.com> (https://mertdlkr.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mertdlkr/MertGSD.git"
+  },
+  "homepage": "https://github.com/mertdlkr/MertGSD",
+  "bugs": {
+    "url": "https://github.com/mertdlkr/MertGSD/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

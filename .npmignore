@@ -1,0 +1,6 @@
+.git
+.gitignore
+.planning
+MERTGSD-ROADMAP.md
+*.log
+node_modules
